@@ -1,0 +1,187 @@
+.maincontainer {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6. 1fr);
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    overflow: scroll;
+    
+}
+
+h1 {
+  color: lightgrey;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 2px solid black;
+  padding: 20px;
+
+
+}
+
+.imageClass {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptionClass {
+  width: 90%;
+}
+
+
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 2px solid black;
+  padding: 20px;
+}
+  
+
+.first {
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin-top: 50px; 
+
+  }
+
+
+.first:hover {
+  background-color: grey;
+}
+
+.second {
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  margin-top: 50px;
+
+}
+
+.second:hover {
+  background-color: grey;
+}
+
+.imageClass2 {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptionClass2 {
+  width: 90%;
+}
+
+.box3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.third {
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  margin-top: 50px;
+
+}
+
+.third:hover {
+  background-color: grey;
+}
+
+.imageClass3 {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptionClass3 {
+  width: 90%;
+}
+
+.box4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.fourth {
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  margin-top: 50px;
+
+}
+
+.fourth:hover {
+  background-color: grey;
+}
+
+.imageClass4 {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptionClass4 {
+  width: 90%;
+}
+
+.box5 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border: 2px solid black;
+  padding: 20px;
+  padding-right: 10px;
+}
+
+.fifth {
+  border-radius: 10%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  margin-top: 50px;
+
+}
+
+.fifth:hover {
+  background-color: grey;
+}
+
+.imageClass5 {
+  width: 80%;
+  padding: 20px;
+}
+
+.descriptionClass5 {
+  width: 90%;
+}
